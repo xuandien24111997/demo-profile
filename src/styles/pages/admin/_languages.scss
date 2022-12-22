@@ -1,0 +1,122 @@
+.page-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: #221d1a;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  padding: 10px;
+  width: 100%;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+
+.languages {
+  padding: 50px;
+  padding-top: 20px;
+
+  .table {
+    position: relative;
+
+    .loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .MuiButton-contained {
+    padding: 12px 30px;
+  }
+
+  .module-box-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .MuiPaper-rounded {
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .pagination {
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 0;
+  }
+  .table-component {
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: clip;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+    h3 {
+      font-size: 1.75rem;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+    i {
+      font-style: italic;
+      white-space: break-spaces;
+      color: #74778a;
+      overflow: hidden;
+      text-overflow: clip;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+    strong {
+      line-height: 1.2;
+      font-weight: 700;
+    }
+    ul {
+      line-height: 1.2;
+      margin-left: 50px;
+      list-style-type: decimal;
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: clip;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+    ol {
+      line-height: 1.2;
+      margin-left: 50px;
+      list-style-type: decimal;
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: clip;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      padding: 0px 0;
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: clip;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+  }
+}

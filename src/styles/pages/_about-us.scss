@@ -1,0 +1,152 @@
+.page-about-us {
+  .about-us {
+    background-color: #d5e4f2;
+    color: #344955;
+    position: relative;
+    background-position: center;
+    background-image: url("../../assets/images/LayerPage.png");
+    .about-us-div {
+      position: absolute;
+      height: 200px;
+      width: 100vw;
+      background-image: linear-gradient(#ffffff, #fff0);
+    }
+    .link-move {
+      max-width: 1650px;
+      display: flex;
+      position: relative;
+      height: 770px;
+      padding: 40px 40px 33px;
+      align-items: flex-start;
+      justify-content: space-between;
+      &__left {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: "OpenSans-SemiBold", sans-serif;
+        .leftRight {
+          display: flex;
+          align-items: flex-start;
+          .Home_text {
+            cursor: pointer;
+            color: #344955;
+            margin-left: 11px;
+          }
+          span {
+            font-size: 20px;
+            padding: 0 10px;
+            color: #344955;
+          }
+          .Alphabet {
+            color: #f9aa33;
+          }
+        }
+      }
+      &__right {
+        display: flex;
+        align-items: center;
+        color: #344955;
+        margin-top: 4px;
+        margin-right: 10px;
+        p {
+          margin-left: 10px;
+          font-size: 20px;
+          font-family: "OpenSans-Bold", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__more-about {
+    position: relative;
+    background-color: #d5e4f2;
+    // height: 480px;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    .container {
+      max-width: 1370px;
+      position: relative;
+      box-shadow: 0px 4px 3px 3px #afafaf2e;
+      border-radius: 10px;
+      top: -200px;
+      background-color: #fff;
+      padding: 75px 100px 80px;
+      margin-bottom: -100px;
+    }
+    .about-content {
+      color: #344955;
+      text-align: center;
+      font-family: "OpenSans-Regular", sans-serif;
+      .about {
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 55px;
+        text-transform: uppercase;
+        font-family: "OpenSans-Bold", sans-serif;
+      }
+      .line {
+        padding: 1px 150px 2px;
+        background-color: #f9aa33;
+      }
+      &__text {
+        padding: 60px 0px 30px;
+        font-size: 20px;
+        line-height: 27px;
+        .text-top {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1416px) {
+  .page-about-us {
+    .about-us {
+      .link-move {
+        &__left {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .page-about-us {
+    .about-us {
+      background-image: url("../../assets/images/Layermobi.png");
+    }
+    &__more-about {
+      .container {
+        top: -180px;
+        padding: 75px 77px 80px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .page-about-us {
+    &__more-about {
+      .container {
+        padding: 75px 25px 80px;
+        .line {
+          padding: 1px 120px 2px;
+        }
+      }
+    }
+    .about-us {
+      .link-move {
+        &__right {
+          margin-right: 0px;
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+html {
+  scroll-behavior: smooth;
+}

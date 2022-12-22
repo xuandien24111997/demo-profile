@@ -1,0 +1,139 @@
+.hand-gestures {
+  margin: 0 269px;
+  &__title {
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: #344955;
+      font-family: "OpenSans-Bold";
+    }
+    .boderBottom {
+      border-bottom: 3.5px solid #f9aa33;
+      width: 300px;
+      height: 59px;
+      margin: 0 auto;
+    }
+  }
+  &__body {
+    margin-top: 110px;
+    .wrapper {
+      margin-bottom: 94px;
+      .body__img {
+        img {
+          height: auto;
+          width: 20.208vw;
+        }
+      }
+      .body__content {
+        margin-left: 19px;
+        .title {
+          font-family: "OpenSans-Bold";
+          font-size: 38px;
+          line-height: 1.13;
+          color: #344955;
+          margin-bottom: 42px;
+        }
+        .how-to-use {
+          font-family: "OpenSans-Bold";
+          font-size: 20px;
+          line-height: 2;
+          color: #344955;
+          margin-bottom: 15px;
+        }
+        .content {
+          font-family: "OpenSans-Italic";
+          font-size: 20px;
+          line-height: 1.4;
+          color: #344955;
+          .notes {
+            font-family: "OpenSans-Bold";
+            font-size: 20px;
+            line-height: 2;
+            color: #344955;
+            margin-top: 42px;
+            margin-bottom: 11px;
+          }
+          .notes__content {
+            font-size: 20px;
+            line-height: 1.4;
+            color: #344955;
+          }
+        }
+      }
+    }
+  }
+  .btn_top {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: -7px;
+    &__button {
+      padding: 21px 2.552vw;
+      border: none;
+      border-radius: 5px;
+      background-color: #f9aa33;
+      font-family: "OpenSans-SemiBold";
+      font-size: 20px;
+    }
+  }
+}
+@media screen and (max-width: 1520px) {
+  .hand-gestures {
+    margin: 0 200px;
+  }
+}
+@media screen and (max-width: 1416px) {
+  .alphabet {
+    .link-move {
+      &__left {
+        margin-left: 0px;
+      }
+    }
+  }
+  .hand-gestures {
+    margin: 0 40px;
+    &__title {
+      h1 {
+        font-size: 48px;
+      }
+    }
+    .btn_top {
+      .btn_top__button {
+        padding: 21px 4.552vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .hand-gestures {
+    &__body {
+      .wrapper {
+        flex-direction: column;
+        .body__img {
+          height: 400px;
+          width: 267px;
+        }
+        .body__content {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 759px) {
+  .hand-gestures {
+    &__body {
+      .wrapper {
+        .body__img {
+          height: 400px;
+          width: 267px;
+        }
+      }
+    }
+    &__title {
+      .boderBottom {
+        width: 260px;
+      }
+    }
+  }
+}

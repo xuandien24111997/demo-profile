@@ -1,0 +1,103 @@
+.finger-counting-modal {
+  position: absolute;
+  top: 100px;
+  width: 668px;
+  // height: 243px;
+  background-color: #fff;
+  border-radius: 4px;
+
+  .MuiDropzoneArea-root {
+    width: 90%;
+    margin: auto;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield !important;
+  }
+
+  .finger-counting-modal__heading {
+    width: 100%;
+    border-bottom: 1px solid rgba(118, 115, 113, 0.25);
+    .finger-counting-modal__title {
+      font-size: 24px;
+      line-height: 28.8px;
+      font-weight: 900;
+      color: #161931;
+      margin: 16px 0 16px 24px;
+    }
+  }
+
+  .finger-counting-modal__container {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 9px;
+    cursor: pointer;
+
+    .finger-counting-modal__container-left {
+      justify-content: space-between;
+      align-items: center;
+      .finger-counting-modal__username {
+        position: relative;
+        flex-direction: column;
+        margin: 16px 24px 28px 24px;
+
+        .finger-counting-modal__text {
+          font-size: 14px;
+          line-height: 22px;
+          color: #74778a;
+        }
+
+        .finger-counting-modal__input {
+          width: 100%;
+          height: 44px;
+          margin: 8px 0 0 0;
+          padding: 11px 0 11px 16px;
+          background-color: #f9f9f9;
+          border: 1px solid rgba(118, 115, 113, 0.25);
+          box-sizing: border-box;
+          box-shadow: inset 0px 2px 4px rgba(118, 115, 113, 0.1);
+          border-radius: 4px;
+          outline: none;
+        }
+
+        .error-text {
+          position: absolute;
+          top: 78px;
+          margin-top: 5px;
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+.finger-counting-modal__footer {
+  width: 100%;
+  font-family: "OpenSans-Regular";
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 8px;
+  height: 68px;
+  border-top: 1px solid rgba(118, 115, 113, 0.25);
+
+  .finger-counting-modal__btn-cancel {
+    width: 43px;
+    height: 20px;
+    font-family: "OpenSans-Regular";
+    margin-right: 32px;
+    color: #74778a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}

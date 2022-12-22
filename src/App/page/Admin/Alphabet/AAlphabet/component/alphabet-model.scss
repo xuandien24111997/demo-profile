@@ -1,0 +1,94 @@
+.basket-modal {
+    position: absolute;
+    top: 100px;
+    width: 668px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 670px;
+  
+    .basket-modal__heading {
+      width: 100%;
+      border-bottom: 1px solid rgba(118, 115, 113, 0.25);
+      .basket-modal__title {
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 900;
+        color: #161931;
+        margin: 16px 0 16px 24px;
+      }
+    }
+  
+    .basket-modal__container {
+      align-items: center;
+      width: 100%;
+      margin-bottom: 9px;
+      cursor: pointer;
+  
+      .basket-modal__container-left {
+        justify-content: space-between;
+        align-items: center;
+        .basket-modal__username {
+          position: relative;
+          flex-direction: column;
+          margin: 16px 24px 28px 24px;
+  
+          .basket-modal__text {
+            font-size: 14px;
+            line-height: 22px;
+            color: #74778a;
+          }
+  
+          .basket-modal__input {
+            width: 100%;
+            height: 44px;
+            margin: 8px 0 0 0;
+            padding: 11px 0 11px 16px;
+            background-color: #f9f9f9;
+            border: 1px solid rgba(118, 115, 113, 0.25);
+            box-sizing: border-box;
+            box-shadow: inset 0px 2px 4px rgba(118, 115, 113, 0.1);
+            border-radius: 4px;
+            outline: none;
+          }
+  
+          .error-text {
+            position: absolute;
+            top: 78px;
+            margin-top: 5px;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 48px !important;
+}
+  
+  .basket-modal__footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8px;
+    height: 68px;
+    border-top: 1px solid rgba(118, 115, 113, 0.25);
+  
+    .basket-modal__btn-cancel {
+      width: 43px;
+      height: 20px;
+      font-family: "OpenSans-Regular";
+      margin-right: 32px;
+      color: #74778a;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: bold;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  

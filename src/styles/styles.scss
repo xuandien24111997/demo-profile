@@ -1,0 +1,30 @@
+@import "base/base";
+
+@import "helpers/variables";
+@import "helpers/mixins";
+
+@import "components/index.scss";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/sidebar";
+
+@import "pages/index.scss";
+@import "pages/language-cantonese";
+@import "pages/time.scss";
+@import "pages/directions.scss";
+@import "pages/finger-counting";
+@import "pages/hand-gestures";
+@import "pages/alphabet";
+@import "pages/phrases";
+@import "pages/currency";
+@import "pages/about-us";
+@import "pages/contact-us";
+@import "pages/contributes";
+@import "pages/external";
+@import "pages/acknowledgement";
+@import "pages/quiz";
+@import "pages/select-language";
+@import "pages/home-info-theme1";
+
+//Admin
+@import "pages/admin/languages";

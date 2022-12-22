@@ -1,0 +1,227 @@
+.page-contact-us {
+  .contact-us {
+    background-color: #d5e4f2;
+    color: #344955;
+    position: relative;
+    background-image: url("../../assets/images/LayerPage.png");
+    .contact-us-div {
+      position: absolute;
+      height: 200px;
+      width: 100vw;
+      background-image: linear-gradient(#ffffff, #fff0);
+    }
+    .link-move {
+      max-width: 1650px;
+      display: flex;
+      position: relative;
+      height: 770px;
+      padding: 40px 40px 33px;
+      align-items: flex-start;
+      justify-content: space-between;
+      &__left {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: "OpenSans-SemiBold", sans-serif;
+        .leftRight {
+          display: flex;
+          align-items: flex-start;
+          .Home_text {
+            cursor: pointer;
+            color: #344955;
+            margin-left: 11px;
+          }
+          span {
+            font-size: 20px;
+            padding: 0 10px;
+            color: #344955;
+          }
+          .Alphabet {
+            color: #f9aa33;
+          }
+        }
+      }
+      &__right {
+        display: flex;
+        align-items: center;
+        color: #344955;
+        margin-right: 10px;
+        margin-top: 4px;
+        p {
+          margin-left: 10px;
+          font-size: 20px;
+          font-family: "OpenSans-Bold", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__more-contact {
+    position: relative;
+    background-color: #d5e4f2;
+    padding: 0 40px;
+    // height: 480px;
+    display: flex;
+    justify-content: center;
+    .container {
+      max-width: 1370px;
+      position: relative;
+      box-shadow: 0px 4px 3px 3px #afafaf2e;
+      border-radius: 10px;
+      top: -200px;
+      background-color: #fff;
+      padding: 75px 100px 100px;
+      margin-bottom: -100px;
+    }
+    .contact-content {
+      color: #344955;
+      font-family: "OpenSans-Regular", sans-serif;
+      .contact {
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 55px;
+        text-transform: uppercase;
+        font-family: "OpenSans-Bold", sans-serif;
+      }
+      .line {
+        padding: 1px 150px 2px;
+        background-color: #f9aa33;
+      }
+      .contact-details {
+        display: flex;
+        margin: 60px 0;
+        .contact-info {
+          width: 57.27%;
+          .div-list:not(:last-child) {
+            width: 500px;
+            border-bottom: 1px solid #e6e6e6;
+          }
+          .div-list:not(:first-child) {
+            margin-top: 25px;
+          }
+          &__details {
+            display: flex;
+            align-items: center;
+            .details-title {
+              font-family: "NotoSansTC-Bold", sans-serif;
+              font-size: 24px;
+              line-height: 32px;
+            }
+            img {
+              margin-right: 5px;
+            }
+          }
+          .details-text {
+            font-size: 20px;
+            margin-left: 27px;
+            margin-bottom: 21px;
+            line-height: 32px;
+            margin-top: 6px;
+            font-family: "OpenSans-SemiBold", sans-serif;
+          }
+        }
+        .contact-form {
+          display: flex;
+          flex-direction: column;
+          width: 42.73%;
+          input,
+          textarea {
+            background-color: #d5e4f2;
+            border: 0;
+            outline: none;
+            border-radius: 5px;
+            height: 55px;
+            width: 100%;
+            padding-left: 20px;
+            margin-bottom: 20px;
+          }
+          textarea {
+            height: 110px;
+            padding: 20px;
+          }
+          .info-submit {
+            border: 0;
+            font-size: 20px;
+            color: #232f34;
+            border-radius: 5px;
+            padding: 20px 40px;
+            background-color: #f9aa33;
+            font-family: "OpenSans-SemiBold", sans-serif;
+          }
+        }
+      }
+      .contact-map {
+        border-radius: 7px;
+        height: 400px;
+        background-color: #c4f0c1;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1416px) {
+  .page-contact-us {
+    .contact-us {
+      .link-move {
+        &__left {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .page-contact-us {
+    .contact-us {
+      background-image: url("../../assets/images/Layermobi.png");
+    }
+    &__more-contact {
+      .container {
+        top: -180px;
+        padding: 75px 77px 80px;
+        .contact-content {
+          .contact-details {
+            flex-direction: column;
+            .contact-info {
+              width: 100%;
+              .div-list {
+                width: 100%;
+              }
+            }
+            .contact-form {
+              margin-top: 37px;
+              width: 100%;
+            }
+          }
+          .contact-map {
+            height: 480px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .page-contact-us {
+    &__more-contact {
+      .container {
+        padding: 75px 25px 80px;
+        .contact-content {
+          .line {
+            padding: 1px 120px 2px;
+          }
+        }
+      }
+    }
+    .contact-us {
+      .link-move {
+        &__right {
+          margin-right: 0px;
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

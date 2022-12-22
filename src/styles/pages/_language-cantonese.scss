@@ -1,0 +1,167 @@
+.language-cantonese {
+  background-color: #d5e4f2;
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 1170px;
+  }
+  &__more-about {
+    padding: 20px;
+    .about {
+      padding: 80px 0px 37px;
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 17px;
+      color: #344955;
+      font-family: "OpenSans-SemiBold", sans-serif;
+    }
+    .line {
+      padding: 1px 155px 2px;
+      background-color: #f9aa33;
+    }
+  }
+  &__cantonese {
+    padding: 34px 0px;
+    .content {
+      display: flex;
+      padding: 17px 0px 20px;
+      align-items: center;
+      flex-direction: row;
+
+      &__img {
+        background-color: #d5e4f2;
+        z-index: 1;
+        padding-right: 20px;
+        position: relative;
+        border-radius: 999px;
+        .img-div {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .text-div {
+        align-items: center;
+        flex: 1;
+        margin-left: -45px;
+      }
+      &__text {
+        color: #ffffff;
+        background-color: #344955;
+        padding-left: 135px;
+        line-height: 25px;
+        border-radius: 0 7px 7px;
+        .text-title {
+          width: 100%;
+          font-size: 24px;
+          padding: 17px 0 13px;
+          font-family: "OpenSans-SemiBold", sans-serif;
+        }
+        .text-content {
+          font-size: 20px;
+          padding-bottom: 20px;
+          line-height: 28px;
+          padding-right: 76px;
+          font-family: "OpenSans-Regular", sans-serif;
+        }
+      }
+    }
+  }
+  &__learning-modules {
+    .module-title {
+      padding: 45px 0px 60px;
+      text-align: center;
+      color: #344955;
+      font-size: 48px;
+      font-family: "OpenSans-Bold", sans-serif;
+    }
+    .title-div {
+      display: flex;
+      justify-content: space-between;
+      .module-list {
+        padding: 5px 0px;
+        width: 23%;
+        cursor: pointer;
+
+        &__module-img {
+          .list-img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        &__module-title {
+          .list-title {
+            padding: 25px 0 32px;
+            font-size: 24px;
+            line-height: 33px;
+            color: #344955;
+            text-align: center;
+            font-family: "OpenSans-Bold", sans-serif;
+          }
+        }
+      }
+    }
+  }
+  .bottom-div {
+    padding: 31px;
+    background-color: #d5e4f2;
+  }
+}
+@media screen and (max-width: 1236px) and (min-width: 1081px)  {
+  .language-cantonese {
+    &__cantonese {
+      padding: 0 40px;
+      .content__text {
+        .text-content {
+          padding-right: 20px;
+        }
+      }
+    }
+    &__learning-modules {
+      padding: 0 40px;
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .language-cantonese {
+    .container {
+      padding: 0 40px;
+    }
+    .content__text {
+      .text-content {
+        padding-right: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1040px) {
+  .language-cantonese {
+    &__cantonese {
+      .content {
+        flex-direction: column;
+        align-items: center;
+        &__img {
+          width: 100%;
+          padding-right: 0;
+          margin-bottom: 10px;
+        }
+        &__text {
+          padding: 0 30px;
+          border-radius: 7px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 766px) {
+  .language-cantonese {
+    &__learning-modules {
+      .title-div {
+        flex-wrap: wrap;
+        .module-list {
+          width: 47%;
+        }
+      }
+    }
+  }
+}

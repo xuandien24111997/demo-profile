@@ -1,0 +1,133 @@
+.google-map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  .MuiAccordionSummary-content.Mui-expanded {
+    margin: 0;
+  }
+
+  .MuiAccordion-root.Mui-expanded:last-child,
+  .MuiAccordion-rounded:last-child,
+  .MuiAccordion-root:before {
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-top: 10px;
+  }
+
+  .MuiAccordionDetails-root,
+  .MuiAccordionSummary-root {
+    padding: 0;
+  }
+
+  .MuiAccordionSummary-expandIcon.Mui-expanded,
+  .MuiAccordionSummary-expandIcon {
+    display: none;
+  }
+
+  &__select {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+
+    .select-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 370px;
+      height: 65px;
+      padding: 0 30px;
+      background-color: #fff;
+      margin-bottom: 2px;
+      border-radius: 8px;
+    }
+    .btn.active {
+      font-size: 24px;
+      background-color: #344955;
+      font-weight: bold;
+      color: #fff;
+      font-family: "OpenSans-Bold", sans-serif;
+    }
+
+    .cus-btn {
+      color: #191919;
+      font-size: 20px;
+      font-family: "OpenSans-SemiBold", sans-serif;
+
+      &:hover {
+        background-color: #3c6982;
+        color: #fff;
+      }
+    }
+    .cus-btn-title {
+      height: 80px;
+    }
+  }
+
+  .pulsating-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 15px;
+    height: 15px;
+
+    &:before {
+      content: "";
+      position: relative;
+      display: block;
+      width: 300%;
+      height: 300%;
+      box-sizing: border-box;
+      margin-left: -100%;
+      margin-top: -100%;
+      border-radius: 45px;
+      background-color: #f9aa33;
+      animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #f9aa33;
+      border-radius: 15px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+    }
+  }
+
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.33);
+    }
+    80%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse-dot {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+}
