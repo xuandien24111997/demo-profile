@@ -157,10 +157,10 @@ const NumbersClassifieds = ({
                     <>
                       <div className="modal-light">
                         <div className="light-icon">
-                          <img
+                          {/* <img
                             src={require("assets/images/icon-num.svg").default}
                             alt="img"
-                          />
+                          /> */}
                         </div>
 
                         <div className="light-modal">
@@ -168,12 +168,12 @@ const NumbersClassifieds = ({
                             className="light-close"
                             onClick={handleTooltipClose}
                           >
-                            <img
+                            {/* <img
                               src={
                                 require("assets/images/icon-close.png").default
                               }
                               alt="img"
-                            />
+                            /> */}
                           </div>
                           <div className="modal-details">
                             <p className="title">Cultural Notes</p>

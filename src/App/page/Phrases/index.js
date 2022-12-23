@@ -98,10 +98,10 @@ const Phases = ({ listPhrases, getListPhrasesAction, detailPhraseSetting, phrase
                     <>
                       <div className="modal-light" key={index}>
                         <div className="light-icon">
-                          <img
+                          {/* <img
                             src={require("assets/images/icon-pha.svg").default}
                             alt="img"
-                          />
+                          /> */}
                         </div>
 
                         <div className="light-modal">
@@ -109,12 +109,12 @@ const Phases = ({ listPhrases, getListPhrasesAction, detailPhraseSetting, phrase
                             className="light-close"
                             onClick={handleTooltipClose}
                           >
-                            <img
+                            {/* <img
                               src={
                                 require("assets/images/icon-close.png").default
                               }
                               alt="img"
-                            />
+                            /> */}
                           </div>
                           <div className="modal-details">
                             <p className="title">Cultural Notes</p>
