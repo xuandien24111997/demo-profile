@@ -4,9 +4,7 @@ import React from 'react'
 export default function Theme1({data}) {
   return (
     <div id="profile">
-       
         {data.length > 0 && data.map((key, index) => (
-
             <>
                 <div className="backgroud-profile" style={{backgroundImage: `url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940') `}}>
                     <div className="contact-header">
