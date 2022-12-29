@@ -40,12 +40,12 @@ const ThemeChoose = () => {
 
   return (
     <>
-     {/* <select name="theme" id="theme" value={chooseTheme} onChange={ (e) => {setChooseTheme( e.target.value )}  } >
+     <select name="theme" id="theme" value={chooseTheme} onChange={ (e) => {setChooseTheme( e.target.value )}  } >
         <option value="info-template-1">Theme 1</option>
         <option value="info-template-2">Theme 2</option>
         <option value="info-template-3">Theme 3</option>
         <option value="info-template-4">Theme 4</option>
-      </select> */}
+      </select>
       <div className="info-msy" >{chooseThemeShow(chooseTheme)} </div>
     </>
   );
