@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet";
 import { titlePage } from "ultils/constant";
 import "./styles/reset.scss";
 import "./styles/styles.scss";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const persistor = persistStore(store);
 ReactDOM.render(
@@ -32,6 +33,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+serviceWorkerRegistration.register();
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

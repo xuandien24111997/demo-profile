@@ -3,7 +3,7 @@ import React from 'react'
 export default function Theme4({data}) {
   return (
     <div id="profile">
-        <div className="backgroud-profile" style={{backgroundImage: `url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940') `}}>
+        <div className="background-profile" style={{backgroundImage: `url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940') `}}>
             <div className="btn-menu">
                 <label className="btn-menu__img" for="menudrop-1">
                     <img src="./assets/images/menu_icon.png" alt=""/>
