@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Theme1 from "./Theme1/Theme1";
+import Theme1 from "./Theme1";
 import Theme2 from "./Theme2";
 import Theme3 from "./Theme3";
 import Theme4 from "./Theme4";
@@ -12,14 +12,18 @@ const ThemeChoose = () => {
     {
       image : "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       image1 : "https://i.9mobi.vn/cf/images/2015/03/nkk/anh-gai-xinh-4.jpg",
-      name : "Nguyễn Phước Thu",
-      phone: "123123123",
-      theme: "Đây là theme của THUNP nhé !",
-      abc: "Điện tao",
-      facebook:"Tao là Thu",
-      youtube:"Thu là tao",
-      zalo:"Thu nè ahihi",
-      tiktok:"Thu nè 1",
+      text1 : "Nguyễn Phước Thu",
+      text2: "Developer in Kozocom Da Nang",
+      text3: "Jely Facebook",
+      text4: "Jely Zalo",
+      text5: "Jely Telegram",
+      text6: "Jely Youtube",
+      text7: "Jely Skype",
+      text8: "Jely Sacombank",
+      text9: "Jely Momo",
+      text10: "Jely Vietinbank",
+      text11: "Jely Phone",
+      text12: "Jely Message",
     }
 ]
 
