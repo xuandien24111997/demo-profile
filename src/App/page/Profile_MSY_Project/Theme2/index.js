@@ -9,6 +9,7 @@ import sac from "../../../../assets/images/sac.png";
 import MoMo from "../../../../assets/images/MoMo.png";
 import viet from "../../../../assets/images/viet.png";
 import animebg from "../../../../assets/images/animebg.jpg";
+import OpenApp from "react-open-app";
 
 export default function Theme2({data}) {
   return (
@@ -48,14 +49,15 @@ export default function Theme2({data}) {
                 </div>
                 <div className="other-info other-info-2 row">
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
-                            <div className="icon">
-                                <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
-                            </div>
-                            <div className="text">
-                               {key.text3}
-                            </div>
-                        </a>
+                    <OpenApp class="btn btn-info-contact" href="https://www.facebook.com/Jely.Big">
+                        <div className="icon">
+                            <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
+                        </div>
+                        <div className="text">
+                            {key.text3}
+                        </div>
+                    </OpenApp>
+                      
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
