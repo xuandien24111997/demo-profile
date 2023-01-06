@@ -28,7 +28,7 @@ export default function Theme2({data}) {
                              <br /><br />
                             </div>
                             <div className="nick-name">
-                                <small>{key.text2} ♪ ♫</small>
+                                <small>{key.text2 ? key.text2 : "Xin chao moi nguoi"}♪ ♫</small>
                             </div>
                         </div>
                         {/* <div className="contact-control-header row">
@@ -49,15 +49,14 @@ export default function Theme2({data}) {
                 </div>
                 <div className="other-info other-info-2 row">
                     <div className="item-info-2 col col-6 m-6 c-6">
-                    <OpenApp class="btn btn-info-contact" href="https://www.facebook.com/Jely.Big">
-                        <div className="icon">
-                            <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
-                        </div>
-                        <div className="text">
-                            {key.text3}
-                        </div>
-                    </OpenApp>
-                      
+                        <a className="btn btn-info-contact" href="fb://Jely.Big">
+                            <div className="icon">
+                                <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
+                            </div>
+                            <div className="text">
+                               {key.text3}
+                            </div>
+                        </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 

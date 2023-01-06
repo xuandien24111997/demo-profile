@@ -76,7 +76,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
               </div>
               <div className="bottom">
                 <i
-                  class="fas fa-play-circle"
+                  className="fas fa-play-circle"
                   onClick={() => {
                     const audio = document.getElementById("audio__compasss-0");
                     audio.play();
@@ -120,7 +120,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                 </div>
                 <div className="bottom">
                   <i
-                    class="fas fa-play-circle"
+                    className="fas fa-play-circle"
                     onClick={() => {
                       const audio =
                         document.getElementById("audio__compasss-3");
@@ -168,7 +168,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                 </div>
                 <div className="bottom">
                   <i
-                    class="fas fa-play-circle"
+                    className="fas fa-play-circle"
                     onClick={() => {
                       const audio =
                         document.getElementById("audio__compasss-1");
@@ -214,7 +214,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                 </div>
                 <div className="bottom">
                   <i
-                    class="fas fa-play-circle"
+                    className="fas fa-play-circle"
                     onClick={() => {
                       const audio =
                         document.getElementById("audio__compasss-2");
@@ -260,7 +260,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
               <div className="bottom">
                 <span>
                   <i
-                    class="fas fa-play-circle"
+                    className="fas fa-play-circle"
                     onClick={() => {
                       const audio = document.getElementById(
                         "audio__display__2-0"
@@ -311,7 +311,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                 </div>
                 <div className="bottom">
                   <i
-                    class="fas fa-play-circle"
+                    className="fas fa-play-circle"
                     onClick={() => {
                       const audio = document.getElementById(
                         "audio__display__2-1"
@@ -355,7 +355,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                   </div>
                   <div className="bottom">
                     <i
-                      class="fas fa-play-circle"
+                      className="fas fa-play-circle"
                       onClick={() => {
                         const audio = document.getElementById(
                           "audio__display__2-3"
@@ -378,7 +378,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
               </div>
               <img
                 alt="img"
-                class="div-content-img"
+                className="div-content-img"
                 src={
                   directionsDisplay2.length > 0 &&
                   "http://" + directionsDisplay2[1]?.image?.url
@@ -404,7 +404,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                   </div>
                   <div className="bottom">
                     <i
-                      class="fas fa-play-circle"
+                      className="fas fa-play-circle"
                       onClick={() => {
                         const audio = document.getElementById(
                           "audio__display__2-4"
@@ -452,7 +452,7 @@ function Directions({ getListDirectionsAction, listDirections }) {
                       </div>
                       <div className="bottom">
                         <i
-                          class="fas fa-play-circle"
+                          className="fas fa-play-circle"
                           onClick={() => {
                             const audio = document.getElementById(
                               "audio__display__1-" + index
