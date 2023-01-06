@@ -3,7 +3,7 @@ import React from 'react';
 const AnyReactComponent = ({ onClick }) => {
   return (
     <div className="cursor-pointer" onClick={onClick}>
-      <div className="pulsating-circle"></div>
+      <div class="pulsating-circle"></div>
     </div>
   )
 }

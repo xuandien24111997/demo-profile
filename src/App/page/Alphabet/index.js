@@ -93,7 +93,7 @@ function Alphabets({
                       <p className="letter__text">{array1.word}</p>
                       <div className="letter__img">
                         <i
-                          className="fas fa-play-circle"
+                          class="fas fa-play-circle"
                           onClick={() => {
                             const audio = document.getElementById(
                               "audio__alphabet" + index
@@ -170,7 +170,7 @@ function Alphabets({
                       <p className="letter__text">{array2.word}</p>
                       <div className="letter__img">
                         <i
-                          className="fas fa-play-circle"
+                          class="fas fa-play-circle"
                           onClick={() => {
                             const audio = document.getElementById(
                               "audio__alphabet1" + index
@@ -247,7 +247,7 @@ function Alphabets({
                       <p className="letter__text">{array3.word}</p>
                       <div className="letter__img">
                         <i
-                          className="fas fa-play-circle"
+                          class="fas fa-play-circle"
                           onClick={() => {
                             const audio = document.getElementById(
                               "audio__alphabet2" + index
@@ -324,7 +324,7 @@ function Alphabets({
                       <p className="letter__text">{array4.word}</p>
                       <div className="letter__img">
                         <i
-                          className="fas fa-play-circle"
+                          class="fas fa-play-circle"
                           onClick={() => {
                             const audio = document.getElementById(
                               "audio__alphabet3" + index

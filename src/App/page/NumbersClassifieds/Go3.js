@@ -62,7 +62,7 @@ const Go3 = ({ classified }) => {
                     ></div>
                     <div className="roma-play">
                       <i
-                        className="fas fa-play-circle"
+                        class="fas fa-play-circle"
                         onClick={() => {
                           const audio = document.getElementById(
                             "audio__oclock__1-" + list._id

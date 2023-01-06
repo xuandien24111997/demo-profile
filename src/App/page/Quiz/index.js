@@ -117,7 +117,7 @@ const Quiz = ({ listQuizzes, getListQuizzesAction }) => {
                   listQuizzes[indexItem].answers.map((eq, index) => (
                     <p className={(listQuizzes[indexItem]._id !== answerObject?.questionId) || !answerObject ? "" : eq?.isAnswer ? "success" : answerObject?._id === eq?._id && `${eq.isAnswer}`} key={index} onClick={() => onAnswer(eq)}>
                       {index === 0 ? "a" : index === 1 ? "b" : "c"}. <span>{eq.text}</span>
-                      {listQuizzes[indexItem]._id !== answerObject?.questionId || !answerObject ? null : eq?.isAnswer ? <i className="fas fa-check"></i> : answerObject?._id === eq?._id && <span className="wrong">x</span>}
+                      {listQuizzes[indexItem]._id !== answerObject?.questionId || !answerObject ? null : eq?.isAnswer ? <i class="fas fa-check"></i> : answerObject?._id === eq?._id && <span className="wrong">x</span>}
                     </p>
                   ))
                 }

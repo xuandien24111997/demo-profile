@@ -9,16 +9,14 @@ import sac from "../../../../assets/images/sac.png";
 import MoMo from "../../../../assets/images/MoMo.png";
 import viet from "../../../../assets/images/viet.png";
 import animebg from "../../../../assets/images/animebg.jpg";
-import abc from "../../../../assets/images/abc.gif";
-import bgth3 from "../../../../assets/images/bg-th3.gif";
 
 export default function Theme3({data}) {
   return (
     <div className="theme-3" id="profile" >
         {data.length > 0 && data.map((key, index) => (
             <>
-                <div className="background-profile" style={{backgroundImage: `url(${abc})`}}>
-                    <div className="contact-header contact-header-2 contact-header-3">
+                <div className="background-profile" style={{backgroundImage: `url(${animebg})`}}>
+                    <div className="contact-header contact-header-2">
                         <div className="avatar avatar2">
                             <img src={key.image} alt=""/>
                         </div>
@@ -48,8 +46,8 @@ export default function Theme3({data}) {
                         </div> */}
                     </div>
                 </div>
-                <div className="other-info other-info-3 row" style={{ backgroundColor: "#a39fa7" , backgroundPosition: "center"}}>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                <div className="other-info other-info-3 row">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="icon">
                                 <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
@@ -59,7 +57,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="text">
                                {key.text4}
@@ -69,7 +67,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="icon">
                                 <img src={tele} style={{ height: "40px" }} alt="" />
@@ -79,7 +77,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="text">
                                 {key.text6}
@@ -89,7 +87,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="icon">
                             <img src={skype} style={{ height: "40px" }} alt="" />
@@ -99,7 +97,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="text">
                                 {key.text8}
@@ -109,7 +107,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="icon">
                             <img src={MoMo} style={{ height: "40px" }} alt="" />
@@ -119,7 +117,7 @@ export default function Theme3({data}) {
                             </div>
                         </a>
                     </div>
-                    <div className="item-info-3 col col-6 m-6 c-6">
+                    <div className="item-info-2 col col-6 m-6 c-6">
                         <a href="abc" className="btn btn-info-contact"> 
                             <div className="text">
                                 {key.text10}

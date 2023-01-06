@@ -92,7 +92,7 @@ const Phases = ({ listPhrases, getListPhrasesAction, detailPhraseSetting, phrase
                   >
                      <p>{list.means}</p>
                   {list.note && list.note.length > 0 && (
-                    <i className="fas fa-lightbulb" key={index} onClick={() => handleTooltipOpen(list._id)}></i>
+                    <i class="fas fa-lightbulb" key={index} onClick={() => handleTooltipOpen(list._id)}></i>
                   )}
                      {openIdModel ===  list._id &&  open && (
                     <>

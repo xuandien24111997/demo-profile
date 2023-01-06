@@ -6,7 +6,7 @@ import Theme4 from "./Theme4";
  
 
 const ThemeChoose = () => {
-  const [chooseTheme, setChooseTheme] = useState("info-template-4")
+  const [chooseTheme, setChooseTheme] = useState("info-template-2")
  
   const data = [
     {
