@@ -125,7 +125,7 @@ const NumbersClassifieds = ({
                   ></div>
                   <div className="roma-play">
                     <i
-                      class="fas fa-play-circle"
+                      className="fas fa-play-circle"
                       onClick={() => {
                         const audio = document.getElementById(
                           "audio__oclock__number-" + index
@@ -150,7 +150,7 @@ const NumbersClassifieds = ({
                 >
                   <p>{list.word}</p>
                   {list.note && list.note.length > 0 && (
-                    <i class="fas fa-lightbulb" onClick= {() => handleTooltipOpen(list._id)}></i>
+                    <i className="fas fa-lightbulb" onClick= {() => handleTooltipOpen(list._id)}></i>
                   )}
 
                   {openIdModal ===  list._id &&  open && (
@@ -266,7 +266,7 @@ const NumbersClassifieds = ({
                     ></div>
                     <div className="roma-play">
                       <i
-                        class="fas fa-play-circle"
+                        className="fas fa-play-circle"
                         onClick={() => {
                           const audio = document.getElementById(
                             "audio__oclock__1-" + index
