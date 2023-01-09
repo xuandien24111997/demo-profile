@@ -31,20 +31,6 @@ export default function Theme2({data}) {
                                 <small>{key.text2 ? key.text2 : "Xin chao moi nguoi"}♪ ♫</small>
                             </div>
                         </div>
-                        {/* <div className="contact-control-header row">
-                            <div className="btn btn-action-header col col-6">
-                                <div className="icon">
-                                    <img src={phone} style={{ height: "40px" }} alt="" />
-                                </div>
-                                <div className="title">{key.text11}</div>
-                            </div>
-                            <div className="btn btn-action-header col col-6 ">
-                                <div className="icon">
-                                    <img src={message} style={{ height: "40px" }} alt="" />
-                                </div>
-                                <div className="title">{key.text12}</div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
                 <div className="other-info other-info-2 row">
@@ -59,7 +45,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact" target="_blank" href="https://zalo.me/0387890890" > 
                             <div className="text">
                                {key.text4}
                             </div>
@@ -69,7 +55,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact" target="_blank" href="https://web.telegram.org/k/" > 
                             <div className="icon">
                                 <img src={tele} style={{ height: "40px" }} alt="" />
                             </div>
@@ -79,7 +65,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact" target="_blank" href="https://www.youtube.com/channel/UCXX1PdLLTAB_lk33_Is8FVA" > 
                             <div className="text">
                                 {key.text6}
                             </div>
@@ -89,7 +75,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact" target="_blank" href="https://www.skype.com/en/"  > 
                             <div className="icon">
                             <img src={skype} style={{ height: "40px" }} alt="" />
                             </div>
@@ -99,7 +85,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact"> 
                             <div className="text">
                                 {key.text8}
                             </div>
@@ -109,7 +95,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact"> 
                             <div className="icon">
                             <img src={MoMo} style={{ height: "40px" }} alt="" />
                             </div>
@@ -119,7 +105,7 @@ export default function Theme2({data}) {
                         </a>
                     </div>
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a href="abc" className="btn btn-info-contact"> 
+                        <a className="btn btn-info-contact"> 
                             <div className="text">
                                 {key.text10}
                             </div>
