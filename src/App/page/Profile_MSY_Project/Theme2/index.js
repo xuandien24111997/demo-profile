@@ -49,7 +49,7 @@ export default function Theme2({data}) {
                 </div>
                 <div className="other-info other-info-2 row">
                     <div className="item-info-2 col col-6 m-6 c-6">
-                        <a className="btn btn-info-contact" href="fb://Jely.Big">
+                        <a className="btn btn-info-contact" target="_blank" href="https://facebook.com/hoangdien.97/" >
                             <div className="icon">
                                 <img src="https://637737vnua.github.io/vlance_ID.49048/assets/images/fb_logo.png" alt=""/>
                             </div>
