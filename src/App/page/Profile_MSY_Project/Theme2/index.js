@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import phone from "../../../../assets/images/phone.png";
 import message from "../../../../assets/images/mes.png";
 import zalo from "../../../../assets/images/zalo.png";
@@ -9,14 +9,48 @@ import sac from "../../../../assets/images/sac.png";
 import MoMo from "../../../../assets/images/MoMo.png";
 import viet from "../../../../assets/images/viet.png";
 import animebg from "../../../../assets/images/animebg.jpg";
+import qrcode from "../../../../assets/images/qr-code.png";
 import OpenApp from "react-open-app";
+import QRCode from "react-qr-code";
 
 export default function Theme2({data}) {
+    const [pageURL, setPageURL] = useState(0);
+    const [showQR, setShowQR] = useState(false);
+    useEffect(() => {
+      setPageURL(window.location.href);
+    })
+    console.log("pageURL:",pageURL)
+
+    const clickShowQRCode =  () => {
+        setShowQR(true)
+    }  
+    const clickCloseQRCode =  () => {
+        setShowQR(false)
+    }  
+
   return (
     <div id="profile" style={{backgroundColor: "#7574c7b5"}}>
+        { showQR === true ? ( 
+                <div>
+                    <div class="show-pr-code" onClick={clickShowQRCode}>
+                        <QRCode
+                            size={100}
+                            style={{ height: "auto", maxWidth: "100%", width: "100%" }}
+                            value={pageURL}
+                            viewBox={`0 0 256 256`}
+                        />
+                    </div>
+                    <div className="back-ground" onClick={clickCloseQRCode}></div>
+                </div> ) : ""
+        }
         {data.length > 0 && data.map((key, index) => (
             <>
                 <div className="background-profile" style={{backgroundImage: `url(${animebg})`}}>
+                    
+                    <div className='qr-code' onClick={clickShowQRCode}>
+                        <img  style={{ height: "40px" }} src={qrcode} alt=""/>
+                    </div>
+
                     <div className="contact-header contact-header-2">
                         <div className="avatar avatar2">
                             <img src={key.image} alt=""/>

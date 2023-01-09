@@ -26,7 +26,32 @@ label {
 }
 
 // css theme 3
-
+.qr-code{
+    position: absolute;
+    background-color: cadetblue;
+    right: 10px;
+    top: 10px;
+    height: 40px;
+}
+.show-pr-code {
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+.back-ground{
+    background-color: #3c3c3c9c;
+    position: absolute;
+    max-width: 450px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
 
 .background-profile {
     position: relative;
